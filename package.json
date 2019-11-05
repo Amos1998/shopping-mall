@@ -1,25 +1,28 @@
 {
-  "name": "shopping-server",
-  "version": "0.0.0",
+  "name": "vue-manage-system",
+  "version": "4.1.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "dev": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "dependencies": {
-    "async": "^3.1.0",
-    "blueimp-md5": "^2.12.0",
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "ejs": "~2.6.1",
-    "express": "~4.16.1",
-    "express-session": "^1.16.2",
-    "http-errors": "~1.6.3",
-    "js-base64": "^2.5.1",
-    "moment": "^2.24.0",
-    "morgan": "~1.9.1",
-    "mysql": "^2.17.1",
-    "node-uuid": "^1.4.8",
-    "request": "^2.88.0",
-    "svg-captcha": "^1.4.0"
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "element-ui": "^2.11.0",
+    "mavon-editor": "^2.6.17",
+    "vue": "^2.6.10",
+    "vue-cropperjs": "^3.0.0",
+    "vue-i18n": "^8.10.0",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.0.3",
+    "vue-schart": "^1.0.0",
+    "vuedraggable": "^2.17.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "vue-template-compiler": "^2.6.10"
   }
 }
